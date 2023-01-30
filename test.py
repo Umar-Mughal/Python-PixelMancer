@@ -3,6 +3,8 @@ import main
 
 
 class TestMain(unittest.TestCase):
+    def setUp(self):
+        print("about to test a function !!!")
     def test_one_do_stuff(self):
         self.assertEqual(main.do_stuff(5), 3)
 
@@ -18,5 +20,9 @@ class TestMain(unittest.TestCase):
     def test_five_do_stuff(self):
         self.assertEqual(main.do_stuff(''), 'Please enter a number.')
 
+    def tearDown(self):
+        print('cleaning up')
 
-unittest.main()
+
+if __name__ == '__main__':
+    unittest.main()
