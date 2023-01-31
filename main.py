@@ -1,6 +1,6 @@
 import PyPDF2
 
-with open('./pdfs/11.3 dummy.pdf', 'rb') as file:
+with open('./pdfs/dummy.pdf', 'rb') as file:
     reader = PyPDF2.PdfReader(file)
     page = reader.pages[0]
     page.rotate(90)
