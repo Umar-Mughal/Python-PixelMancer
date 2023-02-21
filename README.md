@@ -2,4 +2,4 @@
 
 Sends email.
 
-run: `python3 001/send_eamil.py`
+run: `python3 001_send_email/send_eamil.py`
