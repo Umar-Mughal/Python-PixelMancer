@@ -1,5 +1,5 @@
-**# Project 1: Project Name Here**
+**# Project 1: Sending Email**
 
-Give project intro here
+Sends email.
 
-run: `python3 filename.py`
+run: `python3 email_sender.py`
