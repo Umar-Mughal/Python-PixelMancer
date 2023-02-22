@@ -1,5 +1,5 @@
-**# Project 1: Project Name Here**
+**# Project : Scrapping **
 
-Give project intro here
+A scrapping project in python.
 
-run: `python3 filename.py`
+run: `python3 scrape.py`
