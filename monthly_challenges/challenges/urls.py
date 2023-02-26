@@ -1,5 +1,6 @@
-from django.urls import      path
-
-array1 = [
-1 ,2,3
+from django.urls import path
+from . import views
+urlpatterns = [
+    path('jan', views.jan),
+    path('feb', views.feb)
 ]
