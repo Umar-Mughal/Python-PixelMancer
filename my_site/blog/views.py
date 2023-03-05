@@ -81,4 +81,7 @@ def posts(request):
 
 
 def post(request, slug):
-    return render(request, "blog/post.html")
+    single_post = next(p for p in all_posts if p['slug'] == slug)
+    return render(request, "blog/post.html", {
+        "post": single_post
+    })
